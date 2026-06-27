@@ -1,0 +1,41 @@
+name: purplle_beauty_app
+description: "A complete, production-ready Flutter e-commerce application inspired by the Purplle beauty and cosmetics shopping experience."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Asset assets configurations for logos or product placeholders
+  assets:
+    - assets/images/
+    - assets/logos/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: google_fonts/Poppins-Regular.ttf
+        - asset: google_fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: google_fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: google_fonts/Poppins-Bold.ttf
+          weight: 700

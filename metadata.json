@@ -1,0 +1,6 @@
+{
+  "name": "Purplle Flutter DevStudio",
+  "description": "Interactive Flutter emulator and production-ready source code explorer for the Purplle beauty and cosmetics e-commerce application",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
